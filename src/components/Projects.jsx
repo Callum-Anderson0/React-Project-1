@@ -5,33 +5,27 @@ import { Carousel } from 'react-responsive-carousel';
 
 export default function Projects(){
     return (
-        <>
-             <Carousel showArrows={true}>
-                <div>
-                    <img src="assets/logo192.png" />
-                    <p className="legend">Legend 1</p>
-                </div>
-                <div>
-                    <img src="assets/2.jpeg" />
-                    <p className="legend">Legend 2</p>
-                </div>
-                <div>
-                    <img src="assets/3.jpeg" />
-                    <p className="legend">Legend 3</p>
-                </div>
-                <div>
-                    <img src="assets/4.jpeg" />
-                    <p className="legend">Legend 4</p>
-                </div>
-                <div>
-                    <img src="assets/5.jpeg" />
-                    <p className="legend">Legend 5</p>
-                </div>
-                <div>
-                    <img src="assets/6.jpeg" />
-                    <p className="legend">Legend 6</p>
-                </div>
+        <div className="py-4 max-w-[1300px] mx-auto text-center">
+            <h1 className='mx-auto text-white pb-4'>
+                Projects I've made:
+            </h1>
+
+            <Carousel showArrows={true} centerMode centerSlidePercentage={40}>
+               <div className=" rounded-md text-black bg-white max-w-[433px] min-h-[400px] mx-auto" key="slide1" style={{ padding: 0, height: 150 }}>
+                    Text 01
+               </div>
+               <div className=" rounded-md text-black bg-white max-w-[433px] min-h-[400px] mx-auto" key="slide1" style={{ padding: 0, height: 150 }}>
+                    Text 01
+               </div>
             </Carousel>
-        </>
+            <Carousel showArrows={true} className='md:hidden'>
+               <div className=" rounded-md text-black bg-white max-w-[433px] min-h-[400px] mx-auto" key="slide1" style={{ padding: 0, height: 150 }}>
+                    Text 01
+               </div>
+               <div className=" rounded-md text-black bg-white max-w-[433px] min-h-[400px] mx-auto" key="slide1" style={{ padding: 0, height: 150 }}>
+                    Text 01
+               </div>
+            </Carousel>
+        </div>
     )
 }
