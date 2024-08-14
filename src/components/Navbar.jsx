@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import {AiOutlineClose, AiOutlineMenu,} from 'react-icons/ai'
 
 export default function Navbar(){
     const [nav, setNav] = useState(true);

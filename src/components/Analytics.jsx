@@ -9,11 +9,14 @@ export default function Analytics(){
             <div className ='max-w-[1240px] max-auto grid md: grid-cols-2'>
                 <img src={logo} alt='/' />
                 <div>
-                    <p>DATA ANALYTICS AAAA</p>
-                    <h1> Manadgawdfjasdfsd</h1>
-                    <p>
-                        lorem ipsum dolor...
-                    </p>
+                    <h1> Sills</h1>
+                    <ul>
+                        <li>React</li>
+                        <li>CSS</li>
+                        <li>Tailwind</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                    </ul>
                 </div>   
             </div>
         </div>
